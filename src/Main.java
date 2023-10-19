@@ -1,9 +1,6 @@
 import dataextraction.DeliveriesDataExtraction;
 import dataextraction.MatchesDataExtraction;
-import statements.StatementFour;
-import statements.StatementOne;
-import statements.StatementThree;
-import statements.StatementTwo;
+import statements.*;
 
 public class Main {
     public static void main(String[] args) {
@@ -24,5 +21,8 @@ public class Main {
 
         StatementFour statementFour=new StatementFour();
         statementFour.output();
+
+        StatementFive statementFive=new StatementFive();
+        statementFive.output();
     }
 }
