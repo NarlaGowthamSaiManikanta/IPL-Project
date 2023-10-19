@@ -1,11 +1,11 @@
 package dataclasses;
 
-public class Matches {
+public class Match {
     int id;
     int season;
     String city;
     String date;
-    String  team1;
+    String team1;
     String team2;
     String toss_winner;
     String toss_decision;

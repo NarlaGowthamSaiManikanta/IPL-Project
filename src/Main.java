@@ -1,5 +1,16 @@
+import dataextraction.DeliveriesDataExtraction;
+import dataextraction.MatchesDataExtraction;
+import statements.StatementOne;
+
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Hello world!");
+
+        MatchesDataExtraction matchesDataExtraction=new MatchesDataExtraction();
+        DeliveriesDataExtraction deliveriesDataExtraction=new DeliveriesDataExtraction();
+        matchesDataExtraction.readingData();
+        deliveriesDataExtraction.readingData();
+
+        StatementOne statementOne=new StatementOne();
+        statementOne.output();
     }
 }

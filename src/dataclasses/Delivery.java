@@ -1,6 +1,6 @@
 package dataclasses;
 
-public class Deliveries {
+public class Delivery {
 
     int match_id;
     int inning;
