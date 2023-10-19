@@ -29,7 +29,7 @@ public class StatementTwo {
             winCount.put(team,count);
         }
 
-        System.out.println("Problem Statement - 2:");
+        System.out.println("\nProblem Statement - 2:");
         System.out.println("Team - Number of Matches");
         ArrayList<String>sortedKeys=new ArrayList<String>(winCount.keySet());
         Collections.sort(sortedKeys);
