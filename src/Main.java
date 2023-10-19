@@ -1,6 +1,7 @@
 import dataextraction.DeliveriesDataExtraction;
 import dataextraction.MatchesDataExtraction;
 import statements.StatementOne;
+import statements.StatementTwo;
 
 public class Main {
     public static void main(String[] args) {
@@ -12,5 +13,8 @@ public class Main {
 
         StatementOne statementOne=new StatementOne();
         statementOne.output();
+
+        StatementTwo statementTwo=new StatementTwo();
+        statementTwo.output();
     }
 }
